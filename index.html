@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ce416cd6de.js" crossorigin="anonymous"></script>  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZYTLN5HPEC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-ZYTLN5HPEC');
+    </script>
+    <title>Leo's Portfolio</title>
+</head>
+<body>
+    <header>
+        <!-- Mobile Header Division -->
+        <div class="header-mobile">
+            <div class="logomobile">
+                <a href="#"><img src="images/logomobile.svg" alt="Logo Mobile"></a>
+            </div>
+            <div class="menumobile">
+                <nav class="navbar-mobile">
+                    <div class="hamburguer-menu">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                    <ul class="hamb-nav-list">
+                        <li id="menu-item1" class="hamb-nav-item"><a href="#mobile-index" target="_self" class="nav-link">Hello</a></li>
+                        <li id="menu-item2" class="hamb-nav-item"><a href="#mobileportfolio" target="_self" class="nav-link">Portfolio</a></li>
+                        <li id="menu-item3" class="hamb-nav-item"><a href="#mobileabout" target="_self" class="nav-link">About</a></li>
+                        <li id="menu-item4" class="hamb-nav-item"><a href="#mobilecontact" target="_self" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- <a href=""><img src="images/ic_menu.svg" alt="Mobile Menu"></a> -->
+            </div>
+        </div>
+        <!-- Desktop Header Division -->
+        <div class="desktop-header">
+            <div class="desktop-nav">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="#" class="active">Hello</a></li>
+                        <li><a href="#project-link" target="_self">Portfolio</a></li>
+                        <li><a href="#about-link" target="_self">About</a></li>
+                        <li><a href="#get-started" target="_self">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hello Section -->
+    <section id="hideMobile">
+        <!-- Mobile Version  -->
+        <div id="mobile-index">
+        <div class="mobile-hello">
+            <div class="mobile-intro">
+                <h1>Leo de Andrade</h1>
+                <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me</p>
+                <button title="Start Collaboration" class="btnstart" onclick=" window.open('#get-started', '_self'); return false;">Start Collaboration</button>
+            </div>
+            <div class="image_geometry_2">
+                <img src="images/image_geometry_2.png" alt="Image Geometry two">
+            </div>
+        </div>
+        </div>
+        <!-- end mobile version -->
+
+        <div class="hello">
+            <div class="intro">
+                <h1>Leo de Andrade</h1>
+                <p>Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works. If you like what you see and have a project you need coded, don’t hesitate and contact me</p>
+                <button title="Start Collaboration" class="btnstart" onclick=" window.open('#get-started', '_self'); return false;">Start Collaboration</button>
+            </div>
+            <div class="dots">
+                <img src="images/image_dots.svg" alt="Image little dots">
+            </div>
+            <div class="image-geometri1">
+                <img src="images/image-geometry_1.svg" alt="Image Geometry One">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+
+    <!-- mobile version start -->
+    <div class="mobile-project">
+
+        <div class="mobile-project-tit">
+            <h1 id="mobileportfolio" class="mobile-projecttit">Projects</h1>
+        </div>
+        <div class="mobile-project1">
+            <img src="images/mobile-Rectangle21.png" alt="Rectangule Project">
+                <div class="mobile-ret21">
+                    <h3 class="ret21">Project name goes here</h3>
+                    <ul class="overdescription">
+                        <li><a href="#">HTML/CSS</a></li>
+                        <li><a href="#">Ruby on Rails</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                <button title="See this project" class="btnseethis">See this project</button>
+                <!-- Modal start -->
+                <div id="simpleModal" class="modal">
+                    <div class="modal-content">
+                        <span class="closeBtn">&times;</span>
+                        <h1 class="modal-title">Project name goes here</h1>
+                        <div>
+                            <ul class="ul-list-modal">
+                                <li>HTML/CSS</li>
+                                <li>Ruby on Rais</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <img src="images/Group-109.svg" alt="Project Show" class="image-modal">
+                        </div>
+                        <br>
+                        <p class="modal-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            <br><br>
+                            Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                    </div>
+                    <div class="modal-pos-btn">
+                        <button class="modal-btn" onclick="location.href='https://leonardoeng13.github.io/mobile-version-skeleton/'" type="button">See Live<img class="img-btn" src="images/ic_link.svg" alt="Live Demo"></button>
+                        <br>
+                        <button class="modal-btn" onclick="location.href='https://github.com/leonardoeng13/mobile-version-skeleton'" type="button">See Source<img class="img-btn" src="images/ic_github_white.svg" alt="Source Code"></button>
+                    </div>
+                </div> 
+                <!-- Modal ends -->
+            </div>
+        </div>
+        <div class="mobile-retangule22">
+            <img src="images/mobile-Rectangle22.png" alt="Retangule Mobile Project">
+            <div class="mobile-ret21">
+                <h3 class="ret21">Project name goes here</h3>
+                <ul class="overdescription">
+                    <li><a href="#">HTML/CSS</a></li>
+                    <li><a href="#">Ruby on Rails</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            <button title="See this project" class="btnseethis" onclick=" window.open('#get-started', '_self'); return false;">See this project</button>
+            </div>    
+        </div>
+
+        <div class="mobile-retangule25">
+            <img src="images/mobile-Rectangle25.png" alt=" Mobile Rectangule 25">
+            <div class="mobile-ret21">
+                <h3 class="ret21">Project name goes here</h3>
+                <ul class="overdescription">
+                    <li><a href="#">HTML/CSS</a></li>
+                    <li><a href="#">Ruby on Rails</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            <button title="See this project" class="btnseethis" onclick=" window.open('#get-started', '_self'); return false;">See this project</button>
+            </div>
+        </div>
+
+        <div class="mobile-retangule26">
+            <img src="images/mobile-Rectangle26.png" alt="Mobile Rectangule 26">
+            <div class="mobile-ret21">
+                <h3 class="ret21">Project name goes here</h3>
+                <ul class="overdescription">
+                    <li><a href="#">HTML/CSS</a></li>
+                    <li><a href="#">Ruby on Rails</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            <button title="See this project" class="btnseethis" onclick=" window.open('#get-started', '_self'); return false;">See this project</button>
+            </div>
+        </div>
+
+        <div class="mobile-retangule27">
+            <img src="images/mobile-Rectangle27.png" alt="Mobile Rectangule 27">
+            <div class="mobile-ret21">
+                <h3 class="ret21">Project name goes here</h3>
+                <ul class="overdescription">
+                    <li><a href="#">HTML/CSS</a></li>
+                    <li><a href="#">Ruby on Rails</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            <button title="See this project" class="btnseethis" onclick=" window.open('#get-started', '_self'); return false;">See this project</button>
+            </div>
+        </div>
+
+        <div class="mobile-retangule47">
+            <img src="images/mobile-Rectangle47.png" alt="Mobile Rectangule 47">
+            <div class="mobile-ret21">
+                <h3 class="ret21">Project name goes here</h3>
+                    <ul class="overdescription">
+                        <li><a href="#">HTML/CSS</a></li>
+                        <li><a href="#">Ruby on Rails</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+            <button title="See this project" class="btnseethis" onclick=" window.open('#get-started', '_self'); return false;">See this project</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- mobile version stop -->
+    <section id="projects" class="project">
+
+        <div class="project-tit">
+            <h1 id="project-link" class="projecttit">Projects</h1>
+        </div>
+
+        <div class="dots-project">
+            <img class="dotsproject" src="images/image_dots.svg" alt="Project little dots">
+        </div>
+        <div class="project1">
+            <img class="imgproject1" src="images/Rectangle21.png" alt="Project Rectangule 21">
+            <div class="imgprojectoverlay">
+                <div class="overtitle">Project Portfolio Mobile Template</div>
+                <ul class="overdescription">
+                    <li>HTML/CSS</li>
+                    <li>Ruby on Rails</li>
+                    <li>JavaScript</li>
+                </ul>
+                <!-- <div class="seeproject"><a href="index.html">See this project</a></div> -->
+                <button id="0" class="seeproject" title="See this project">See this project</button>
+                <!-- Desktop Modal Start -->
+            
+                <!-- Desktop Modal Ends -->
+            </div>
+        </div>
+        <div class="retangule46">
+            <img src="images/Rectangle46.png" alt="Rectangule 46">
+        </div>
+
+        <div class="imagegeometry2">
+            <img src="images/image-geometry_2.svg" alt="image geometry 2">
+        </div>
+
+        <div class="retangule25">
+            <img class="retangule2" src="images/Rectangle25.png" alt="Rectangule two">
+            <div class="retanguleoverlay">
+                <div class="retovertitle">Project Portfolio ...</div>
+                <ul class="retoverdescription">
+                    <li>HTML/CSS</li>
+                    <li>Ruby on Rails</li>
+                    <li>+1</li>
+                </ul>
+                <button id="1" class="seeproject" title="See this project">See this project</button>
+                <!-- <div class="seeproject2"><a href="index.html">See this project</a></div> -->
+            </div>
+        </div>
+
+        <div class="retangule26">
+            <img src="images/Rectangle26.png" alt="Rectangule 26">
+        </div>
+
+        <div class="retangule27">
+            <img src="images/Rectangle27.png" alt="Rectangule 27">
+        </div>
+
+        <div class="imagegeometry3">
+            <img src="images/image-geometry_3.svg" alt="Image Geometry 3">
+        </div>
+
+        <div class="imagegeometry5">
+            <img src="images/image-geometry_5.svg" alt="Image Geometry 5">
+        </div>
+
+        <div class="imagegeometry4">
+            <img src="images/image-geometry_4.svg" alt="Image Geometry 4">
+        </div>
+
+        <div class="retangule47">
+            <img src="images/Rectangle47.svg" alt="Image Rectangule 47">
+        </div>
+
+    </section>
+
+        <!-- About Section -->
+    <section>
+        <!-- about mobile version -->
+        <div class="mobile-about-page">
+            <div class="mobile-about">
+                <h1 id="mobileabout" class="mobile-about-tit">About</h1>
+                <div class="mobile-about-text">
+                    <p class="mobile-about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+                </div>
+                <form action="cv/Leonardo_Andrade_English_2021.pdf" method="get">
+                    <button class="mobile-btncv" type="submit">Get my CV<img src="images/Group61.svg" alt="Button Get my Resume"></button>
+                  </form>
+            </div>
+            <div class="mobile-skills">
+                <img class="img1" src="images/languages.svg" alt="Conding Languages ">
+                <img class="img2" src="images/framework.svg" alt="Frameworks">
+                <img class="img3" src="images/skills.svg" alt="Skills">
+            </div>
+        </div>
+        <!-- end about mobile version -->
+
+        <div class="about-page">
+            <div id="about-link" class="grid-container">
+                <div class="grid-item"> 
+                    <div class="techprof">
+                        <div class="languages">
+                            <h3>Languages</h3>
+                            <ul>
+                                <li>JavaScript (ES5/ES6)</li>
+                                <li>Ruby</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="frameworks">
+                        <div class="languages">
+                            <h3>Skill</h3>
+                            <ul>
+                                <li>JavaScript (ES5/ES6)</li>
+                                <li>Ruby</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="languages">
+                            <h3>Frameworks</h3>
+                            <ul>
+                                <li>Bootstrap</li>
+                                <li>Ruby on rails</li>
+                                <li>RSpec</li>
+                                <li>Capibara</li>
+                                <li>Selenium</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dots-teal"></div>
+                </div>
+              </div>
+              <div class="about">
+                <h1 class="about-tit">About</h1>
+                <div class="about-text">
+                    <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+                </div>
+                <form action="cv/Leonardo_Andrade_English_2021.pdf" method="get">
+                    <button class="btncv" type="submit">Get my CV<img src="images/Group61.svg" alt="Button get my Resume"></button>
+                  </form>
+              </div>
+        </div>
+    </section>
+
+    <!-- Section Get Started -->
+
+    <section>
+    
+        <!-- mobile get started vesion -->
+        <div class="mobile-get-started">
+            <div class="logomobile2">
+                <a href="#"><img src="images/logomobile.svg" alt="Logo Mobile"></a>
+            </div>
+            <div class="mobile-started-tit">
+                <h1>Get Started</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            </div>
+            
+            <div id="mobilecontact" class="mobile-form">
+                <form id="sendmailmob" action="https://formspree.io/f/myyldona" method="POST" autocomplete="off">
+                    <div class="mobile-formcontainer">
+                        <div class="mobile-fistname">
+                            <label for="mobilefname">First Name</label>
+                            <br>
+                            <input type="text" id="mobilefname" class="input" name="firstname" maxlength="30" required placeholder="Your name..">
+                        </div>
+                        <div class="mobile-email">
+                            <label for="email-mobile-send">E-mail</label>
+                            <br>               
+                            <input class="input" type="email" id="email-mobile-send" name="_replyto" required placeholder="Your e-mail..">
+                        </div>
+                    </div>
+                    <label class="email_mobile d-none" id="email_mobile">Email should be on lower case.</label>
+                    <textarea name="message" id="mobiletextarea" cols="10" rows="10" class="input" maxlength="500" required placeholder="Your message here ..."></textarea>
+                    <button class="mobile-btnsend" type="submit">Start Collaboration</button>
+                </form>
+                
+              </div>
+        </div>
+        <!-- end mobile get started version -->
+
+        <div class="get-started">
+            <div class="imagegeometry6">
+                <img src="images/image-geometry_6.svg" alt="Image Geometry 6">
+            </div>
+
+            <div class="started-tit">
+                <h1>Get Started</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <div class="imagegeometry7">
+                <img src="images/image-geometry_7.svg" alt="Image Geometry 7">
+            </div>
+
+            <div id="get-started" class="form">
+                <form id="sendmailDesk" action="https://formspree.io/f/myyldona" method="POST" autocomplete="off">
+                    <div class="formcontainer">
+                        <div>
+                            <label for="name-desktop">First Name</label>
+                            <br>
+                            <input type="text" id="name-desktop" name="firstname" maxlength="30" required placeholder="Your name..">
+                        </div>
+                        <div>
+                            <label for="email-desktop">E-mail</label>
+                            <br>               
+                            <input type="email" id="email-desktop" name="user_email" placeholder="Your e-mail.." required>
+                        </div>
+                    </div>
+                    <textarea name="message" id="msg-desktop" cols="30" rows="10" maxlength="500" required placeholder="Your message here ..."></textarea>
+                    <label class="email-message d-none" id="email_message">Email should be on lower case.</label>
+                    <br>
+                    <button id="form-submit-desktop" type="submit" class="btnsend" value="Get in touch">Start Collaboration</button>
+                </form>
+
+            </div> 
+        </div>  
+    </section>
+
+    <footer class="mobile-footer">
+        <form action="cv/Leonardo_Andrade_English_2021.pdf" method="get">
+            <button class="mobile-btncv" type="submit">Get my CV<img src="images/ic_link_teal.svg" alt="Button to get my resume"></button>
+          </form>
+            <div class="mobile-media-share">
+                <a href="http://stackoverflow.com"><img src="images/ic_stackoverflow.svg" alt="StackOverflow"></a>
+                <a href="https://github.com/leonardoeng13"><img src="images/ic_github.svg" alt="GitHub"></a>
+                <a href="https://twitter.com/andrede_leo"><img src="images/ic_twitter.svg" alt="Twitter"></a>
+                <a href="https://www.linkedin.com/in/leonardodeandrade"><img src="images/ic_linkedin.svg" alt="LinkedIn"></a>
+                <a href="https://medium.com/"><img src="images/ic_medium.svg" alt="Medium"></a>
+                <a href="https://angel.co/"><img src="images/ic_angellist.svg" alt="Angel"></a>
+            </div>
+    </footer>
+
+    <footer>
+        <div class="desktop-footer">
+            <div class="footer">
+                <form action="cv/Leonardo_Andrade_English_2021.pdf" method="get">
+                    <button class="btncv" type="submit">Get my CV<img src="images/Group61.svg" alt="Button get my Resume"></button>
+                  </form>
+                    <div class="media-share">
+                        <a href="http://stackoverflow.com"><img src="images/ic_stackoverflow.svg" alt="StackOverflow"></a>
+                        <a href="https://github.com/leonardoeng13"><img src="images/ic_github.svg" alt="GitHub"></a>
+                        <a href="https://twitter.com/andrede_leo"><img src="images/ic_twitter.svg" alt="Twitter"></a>
+                        <a href="https://www.linkedin.com/in/leonardodeandrade"><img src="images/ic_linkedin.svg" alt="LinkedIn"></a>
+                        <a href="https://medium.com/"><img src="images/ic_medium.svg" alt="Medium"></a>
+                        <a href="https://angel.co/"><img src="images/ic_angellist.svg" alt="Angel"></a>
+                    </div>
+            </div>
+        </div>
+    </footer>
+        <!-- Popup section -->
+        <div id="overlay" class="popup-bg"></div>
+        <!-- End of Pop-up section -->
+    <script src="js/script.js"></script>
+</body>
+</html>
